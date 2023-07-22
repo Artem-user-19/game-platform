@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About us</title>
+    <link rel="stylesheet" href="../css for pages/aboutus.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body>
+    <div class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+            <div class="nav-title">
+                GP
+            </div>
+        </div>
+        <div class="nav-btn">
+            <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+
+        <div class="nav-links">
+            <a href="../../index.html">Home</a>
+            <a href="./assets/pages/aboutus.html">About us</a>
+            <a href="./portfolio.html">Portfolio</a>
+            <button class="but"><a href="./contact.html">Contact us</a></button>
+            <i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+            <i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i>
+        </div>
+    </div>
+
+    <header>
+        <h1 class="lorem">Lorem Ipsum is simply <br> dummy text of the printing <br> and.</h1>
+        <p class="ipsum">Lorem Ipsum is simply dummy text of the printing and <br> typesetting industry. Lorem Ipsum has been the <br> industry's standard dummy text ever since the 1500s.</p>
+        <div class="touch">
+            <button>Get in touch <span>&rightarrow;</span></button>
+        </div>
+        <div class="chel">
+            <img src="../imgs/Rectangle 6.png" alt="">
+        </div>
+    </header>
+
+    <div class="work">
+        <h1 class="us">Why work with us</h1>
+        <div class="cards">
+            <div class="card1">
+                <button>Lorem ipsum</button>
+                <p class="lorem2">Lorem Ipsum</p>
+                <p class="ipsum2">Lorem Ipsum is simply dummy text of the <br> printing and typesetting industry. Lorem <br> Ipsum has been the industry's standard <br> dummy text ever since the 1500s,</p>
+            </div>
+            <div class="card2">
+                <button>Lorem ipsum</button>
+                <p class="lorem2">Lorem Ipsum</p>
+                <p class="ipsum2">Lorem Ipsum is simply dummy text of the <br> printing and typesetting industry. Lorem <br> Ipsum has been the industry's standard <br> dummy text ever since the 1500s,</p>
+            </div>
+            <div class="card3">
+                <button>Lorem ipsum</button>
+                <p class="lorem2">Lorem Ipsum</p>
+                <p class="ipsum2">Lorem Ipsum is simply dummy text of the <br> printing and typesetting industry. Lorem <br> Ipsum has been the industry's standard <br> dummy text ever since the 1500s,</p>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div class="girl">
+            <img src="../imgs/girl.png" alt="">
+        </div>
+        <h1 class="lorem3">Lorem Ipsum is simply dummy text <br> of the printing and typesetting <br> industry. </h1>
+        <p class="ipsum3">Lorem Ipsum is simply dummy text of the printing and typesetting <br> industry. Lorem Ipsum has been the industry's standard dummy <br> text ever since the 1500s, when an unknown printer took a galley of <br> type and scrambled it to make a type
+            specimen book. It has <br> survived not only five centuries,</p>
+    </main>
+
+    <div class="team">
+        <div class="pers1">
+            <div class="head1">
+                <img src="../imgs/heads/Bill 1.png">
+            </div>
+            <p class="name">John Peter</p>
+            <p class="prof">COO</p>
+        </div>
+
+        <div class="pers1">
+            <div class="head1">
+                <img src="../imgs/heads/Beverly 1.png">
+            </div>
+            <p class="name">Beverly Rose</p>
+            <p class="prof">COO</p>
+        </div>
+
+        <div class="pers1">
+            <div class="head1">
+                <img src="../imgs/heads/Claudia 1.png">
+            </div>
+            <p class="name">Claudia Merphis</p>
+            <p class="prof">COO</p>
+        </div>
+
+        <div class="pers1">
+            <div class="head1">
+                <img src="../imgs/heads/Avatar 1.png">
+            </div>
+            <p class="name">Tom Garald</p>
+            <p class="prof">COO</p>
+        </div>
+    </div>
+
+    <hr style="color: white;">
+    <footer>
+        <p class="rights">Copyright ® 2021 Lorem All rights Rcerved</p>
+    </footer>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up" style="color: #ffffff;"></i></button>
+    <script>
+        let mybutton = document.getElementById("myBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+</body>
+
+</html>
